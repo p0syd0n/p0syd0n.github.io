@@ -1,0 +1,10 @@
+table, td, th {
+  color: white;
+  border: solid 1px;
+}
+
+td:nth-child(even) {
+  background-color: red;
+}
+
+
