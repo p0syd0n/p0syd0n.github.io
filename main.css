@@ -23,8 +23,25 @@ body {
 }
 
 .content-slab {
-  padding: 15px;
-  margin: 15px;
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Centers children horizontally */
+  justify-content: center; /* Centers children vertically */
+  text-align: center; /* Centers text within children */
+  padding:  15px;
+  margin:  15px;
+  width:  100%;
   color: white;
-  word-spacing: 0px;
+  word-spacing:  0px;
+}
+
+.content-slab ul {
+  display: block;
+  text-align: center;
+  padding:  0;
+}
+
+
+h1 {
+  text-align: center;
 }
